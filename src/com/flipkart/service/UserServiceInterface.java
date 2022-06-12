@@ -11,8 +11,8 @@ import com.flipkart.bean.User;
  */
 public interface UserServiceInterface {
 	
-	public User validateUser(String username, String password);
-	public Student fetchStudent(int studentId);
+	 public User validateUser(String username, String password);
+	 public Student fetchStudent(int studentId);
 	 public Admin fetchAdmin(int adminId);
 	 public Professor fetchProfessor(int professorId);
 	 public void createUser(User user);
@@ -20,10 +20,10 @@ public interface UserServiceInterface {
 	 public void createProfessor(Professor professor);
 	 public void createAdmin(Admin admin);
 	 public void updateUser(int userId,User user);
-	  public void updateStudent(int sudentId,Student student);
-	  public void updateProfessor(int professsorId,Professor professor) ;
-	  public void updateAdmin(int adminId,Admin admin) ;
-	  public void deleteUser(int userId,String query) ;
+	 public void updateStudent(int sudentId,Student student);
+	 public void updateProfessor(int professsorId,Professor professor) ;
+	 public void updateAdmin(int adminId,Admin admin) ;
+	 public void deleteUser(int userId,String query) ;
 	 public void displayStudents();
 	 public void displayProfessors();
 	 public void displayAdmins() ;
