@@ -9,7 +9,6 @@ public class Course {
 	
 	private int catalogId;
 	private int semester;
-	
 	public int getSemester() {
 		return semester;
 	}
